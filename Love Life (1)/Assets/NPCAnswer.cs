@@ -1,14 +1,14 @@
-﻿using System.Collections;
+﻿ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.SceneManagement;
 
 public class NPCAnswer : MonoBehaviour
 {
     public GameObject first;
     public GameObject Sickk;
     public GameObject Sleep;
-    public GameObject Death;
     public GameObject WhySelectedTired;
     public GameObject WhySelectedSick;
     public GameObject Okay;
@@ -20,7 +20,6 @@ public class NPCAnswer : MonoBehaviour
         first.SetActive(false);
         Sickk.SetActive(false);
         Sleep.SetActive(false);
-        Death.SetActive(false);
 	}
     public void Sick()
     {
@@ -45,17 +44,17 @@ public class NPCAnswer : MonoBehaviour
         first.SetActive(false);
         Sickk.SetActive(false);
         Sleep.SetActive(false);
-        Death.SetActive(true);
         EventSystem.current.SetSelectedGameObject(null);
 
         EventSystem.current.SetSelectedGameObject(Okay);
+        SceneManager.LoadScene(7);
+        Time.timeScale = 1f;
 	}
     public void Ok()
     {
         first.SetActive(false);
         Sickk.SetActive(false);
         Sleep.SetActive(false);
-        Death.SetActive(false);
         Time.timeScale = 1f;
 	}
 }

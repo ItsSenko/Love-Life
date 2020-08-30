@@ -26,4 +26,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/ChangedRoom1.unity
     guid: ba1fe5c2c1d3854438641e8e73e4c240
+  - enabled: 1
+    path: Assets/Scenes/School.unity
+    guid: 866338628f82f3d45a1ac2774a36572e
   m_configObjects: {}
