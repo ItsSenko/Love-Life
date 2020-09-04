@@ -23,20 +23,20 @@ public class money : MonoBehaviour
         {
             Money -= 50f;
         }
+    }
 
-        if (Input.GetKeyDown(KeyCode.Q))
-        {
-            PlayerPrefs.SetFloat("Money", Money);
-        }
+    private void Start()
+    {
+        Load();
+    }
 
-        if (Input.GetKeyDown(KeyCode.L))
-        {
-            Money = PlayerPrefs.GetFloat("Money");
-        }
+    public void Save()
+    {
+        PlayerPrefs.SetFloat("Money", Money);
+    }
 
-        if(Input.GetKeyDown(KeyCode.R))
-        {
-            Money = 1000f;
-        }
+    public void Load()
+    {
+        Money = PlayerPrefs.GetFloat("Money");
     }
 }
