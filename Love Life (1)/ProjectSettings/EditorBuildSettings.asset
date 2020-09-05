@@ -29,4 +29,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/School.unity
     guid: 866338628f82f3d45a1ac2774a36572e
+  - enabled: 1
+    path: Assets/Scenes/Game.unity
+    guid: 0d28f3cb161ef7b408479e4b1b538a9a
+  - enabled: 1
+    path: Assets/Scenes/SchoolAfterGame.unity
+    guid: b96bcdce6aa6f10449dd2bb4a0cf6f6b
   m_configObjects: {}
