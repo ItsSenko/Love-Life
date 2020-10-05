@@ -47,7 +47,7 @@ public class NPCAnswer : MonoBehaviour
         EventSystem.current.SetSelectedGameObject(null);
 
         EventSystem.current.SetSelectedGameObject(Okay);
-        SceneManager.LoadScene(7);
+        SceneManager.LoadScene(5);
         Time.timeScale = 1f;
 	}
     public void Ok()

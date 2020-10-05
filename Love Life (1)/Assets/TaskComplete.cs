@@ -5,6 +5,7 @@ using UnityEngine;
 public class TaskComplete : MonoBehaviour
 {
     public GameObject Complete;
+    public float restartDelay = 1f;
     public GameObject TaskDone;
 
     // Update is called once per frame
