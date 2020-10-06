@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class UITrigger : MonoBehaviour
 {
@@ -19,7 +20,11 @@ public class UITrigger : MonoBehaviour
     {
         cs.SetActive(false);
     }
-
-
-
+    void OnTriggerStay()
+    {
+        if (Input.GetKeyDown("joystick button 0"))
+        {
+            SceneManager.LoadScene(5);
+		}
+	}
 }   

@@ -12,14 +12,8 @@ EditorBuildSettings:
     path: Assets/Scenes/Bedroom.unity
     guid: 0bce5907d797a4cd8b0660dc119867e8
   - enabled: 1
-    path: Assets/Scenes/settings.unity
-    guid: 350dc8cb0fd8f7d448debc623ef954b7
-  - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
-  - enabled: 1
-    path: Assets/Scenes/Credits.unity
-    guid: 44fa8106db35876439a30ea48932811e
   - enabled: 1
     path: Assets/Scenes/ChangedRoom.unity
     guid: effdded7df4a55e4183000cec75ec8ed
