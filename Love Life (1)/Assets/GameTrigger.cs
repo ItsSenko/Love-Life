@@ -29,7 +29,7 @@ public class GameTrigger : MonoBehaviour
     {
       if (Input.GetKeyDown(KeyCode.E))
       {
-        SceneManager.LoadScene(8);
+        SceneManager.LoadScene(6);
 	  }
 	}
 }

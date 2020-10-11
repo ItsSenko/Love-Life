@@ -17,7 +17,7 @@ public class playerhit : MonoBehaviour {
 	{
 		if (Input.GetKeyDown(KeyCode.Escape))
 		{
-			SceneManager.LoadScene(9);
+			SceneManager.LoadScene(7);
 		}
 	}
 }		
