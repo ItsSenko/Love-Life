@@ -13,8 +13,8 @@ public class TaskComplete : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.E))
         {
-            Destroy(Complete);
-            Destroy(TaskDone);
+            Destroy(Complete, .1f);
+            Destroy(TaskDone, .1f);
 		}
     }
 }
